@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-background {
+    border-top: 10px solid #2ecc71;
+    background-image: url('../images/hand.png');
+    background-repeat: no-repeat;
+     height: 600px;
+   /* width: 100%; */
+    background-size: 100% 600px; 
+}
+
+/* .hand {
+    background-image: url('../images/hand.png');
+    height: 600px;
+    background-repeat: no-repeat;
+} */
+
+.notify {
+ font-size: 60px;
+/* line-height: 20px; */
+color: #ffffff;
+font-family: "Pacifico";
+font-weight: 400;
+margin-top: 160px;
+
+}
+
+.green {
+    color: #2ecc71;
+}
+
+.header-text {
+ /* width: 469px; */
+/* height: 216px; */
+font-size: 24px;
+line-height: 36px;
+color: #ffffff;
+font-family: "Helvetica Neue";
+font-weight: 500;
+}
+
+
+ .margin-left {
+     margin-left: 150px;
+} 
+
+.black {
+    height: 400px;
+}
+
+.my-btn {
+margin-right: 10px;
+width: 52px;
+height: 52px;
+border-radius: 26px;
+border: none;
+background-color: #030303;
+transition: 0.6s;
+opacity: 0.5;
+}
+
+.my-btn:hover {
+    background-color:#2ecc71;
+    cursor: pointer;
+}
+
+.my-btn:active,
+.my-btn:focus { 
+    outline: none; 
+}
+/* 
+.my-btn:focus {
+    border: none;
+} */
+
+
+.icon {
+    display: block;
+    margin: auto auto;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+
+/* SECTION 2 */
+  .container-section2 {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      margin: 40px;
+      height: 335px;
+      background-color: #ffffff;
+  }
+  .icon-section2 {
+      margin-top: 26px;
+      margin-bottom: 26px;
+  }
+
+  .img-section2 {
+    width: 98px;
+    height: 98px;
+    border-radius: 49px;
+    background-color: #2ecc71;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .center {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* align-content: center; */
+      text-align: center;
+  }
+
+   .p-section2-raleway {
+       width: 100%;
+    display: block;
+    font-size: 22px;
+    margin: 36px;
+    line-height: 18px;
+    color: #222222;
+    font-family: "Raleway";
+    font-weight: 600;
+  } 
+  .p-section2-helvetica {
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family: "Helvetica Neue";
+    text-align: center;
+  }
+
+
+  @media all and (max-width: 768px) {
+    .margin-left {
+      margin: auto;
+    }
+
+    .container-section2 {
+        height: auto;
+    }
+  }
+
+  
+  /* SECTION 3 */
+
+  .container-section3 {
+    height: 427px;
+    background-color: #e3e3e3;
+  }
+
+  .height {
+      height: 100%;
+  }
+
+  iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 3px;
+  }
